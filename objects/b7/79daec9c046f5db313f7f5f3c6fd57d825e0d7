@@ -1,7 +1,3 @@
-[map "a369ef1a-1508-35de-ab4c-e8dc019f6a0a"]
-	object = 3593ce64e1215143aea60386a0e4d26ae1774ee5
-	path = module
-	type = extract module
 [module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
 	conflict = request-pull
 	path = module
@@ -9,3 +5,12 @@
 	pull = squash never
 	ref = if refs/heads/main sync refs/heads/main
 	url = agnostic://github-cloud/390413016
+[map "bccc8b39-2540-3530-ba00-fcaf1f1f1998"]
+	object = e4645e7c578891babdea8fedb0d6a9b785953cf6
+	path = module
+	type = extract module
+[map "e6d77de2-91ca-3aaf-ba53-5a06cf9eb696"]
+	object = 3593ce64e1215143aea60386a0e4d26ae1774ee5
+	path = module
+	stage = pull-request
+	type = extract module
